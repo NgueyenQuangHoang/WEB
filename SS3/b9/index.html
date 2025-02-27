@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        display: grid;
+        grid-template-columns: max-content 300px;
+        gap: 10px 20px;
+        align-items: center;
+    }
+</style>
+<body>
+    <form action="">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="dob">Ngày sinh:</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="gender">Giới tính:</label>
+        <select id="gender" name="gender">
+            <option value="male">Nam</option>
+            <option value="female">Nữ</option>
+            <option value="other">Khác</option>
+        </select>
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="address">Địa chỉ:</label>
+        <input type="text" id="address" name="address">
+
+        <label for="role">Vai trò trong nhóm:</label>
+        <select id="role" name="role">
+            <option value="member">Thành viên</option>
+            <option value="leader">Nhóm trưởng</option>
+            <option value="deputy">Phó</option>
+        </select>
+
+        <label for="hobbies">Sở thích:</label>
+        <input type="text" id="hobbies" name="hobbies">
+
+        <label for="skills">Kĩ năng:</label>
+        <textarea id="skills" name="skills"></textarea>
+
+        <label for="free_time">Thời gian rảnh:</label>
+        <input type="checkbox" id="free_time" name="free_time">
+
+        <label for="reason">Lý do tham gia nhóm:</label>
+        <textarea id="reason" name="reason"></textarea>
+
+        <label for="favorite_color">Màu yêu thích:</label>
+        <input type="color" id="favorite_color" name="favorite_color">
+
+        <label for="newsletter">Đăng kí nhận bảng tin:</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+
+        <label for="notification">Nhận thông báo:</label>
+        <div>
+            <input type="radio" id="email_notify" name="notification" value="email">
+            <label for="email_notify">Email</label>
+            <input type="radio" id="sms_notify" name="notification" value="sms">
+            <label for="sms_notify">SMS</label>
+        </div>
+
+        <button type="submit">Đăng kí thành viên</button>
+    </form>
+</body>
+</html>

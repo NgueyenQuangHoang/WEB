@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: grid;
+            grid-template-columns: max-content 200px;
+            gap: 10px 20px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name"><strong>Họ Và Tên:</strong></label>
+        <input type="text" name="name" id="name">
+        
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" name="email" id="email">
+        
+        <label for="dob"><strong>Ngày sinh:</strong></label>
+        <input type="date" name="dob" id="dob">
+        
+        <label for="sex"><strong>Giới tính:</strong></label>
+        <div>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Nam</label>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Nữ</label>
+        </div>
+        
+        <label for="phone"><strong>Số điện thoại:</strong></label>
+        <input type="tel" name="phone" id="phone">
+        
+        <label for="major"><strong>Chuyên ngành:</strong></label>
+        <input type="text" name="major" id="major">
+
+        <label for="year"><strong>Năm học:</strong></label>
+        <input type="text" name="year" id="year">
+
+        <label for="gpa"><strong>Điểm GPA:</strong></label>
+        <input type="number" name="gpa" id="gpa">
+
+        <label for="address"><strong>Địa chỉ:</strong></label>
+        <textarea name="address" id="address" rows="2"></textarea>
+
+        <label for="class"><strong>Lớp:</strong></label>
+        <select name="class" id="class">
+            <option value="1">Lớp 1</option>
+            <option value="2">Lớp 2</option>
+            <option value="3">Lớp 3</option>
+            <option value="4">Lớp 4</option>
+            <option value="5">Lớp 5</option>
+            <option value="6">Lớp 6</option>
+            <option value="7">Lớp 7</option>
+            <option value="8">Lớp 8</option>
+            <option value="9">Lớp 9</option>
+            <option value="10">Lớp 10</option>
+            <option value="11">Lớp 11</option>
+            <option value="12">Lớp 12</option>
+        </select>
+
+        <label for="registration-date"><strong>Ngày đăng kí học:</strong></label>
+        <input type="date" name="registration-date" id="registration-date">
+        <button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
