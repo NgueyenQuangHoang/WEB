@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+pre {
+    background: #fff8dc;
+    padding: 10px;
+    border-left: 4px solid #ffcc00;
+    overflow-x: auto;
+}

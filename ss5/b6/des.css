@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+.center {
+    text-align: center;
+    border: 3px solid green;
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto;
+}
+.example {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+pre {
+    background: #fff;
+    padding: 10px;
+    border-left: 4px solid #ff6666;
+    overflow-x: auto;
+    font-size: 16px;
+}
+.button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}

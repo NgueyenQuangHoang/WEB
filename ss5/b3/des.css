@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+#user{
+    width: 300px;
+}
+#id{
+    width: 50px;
+}
+#head{
+    background-color: rgb(64, 138, 241);
+}
+tr:nth-child(even){
+    background-color: rgb(193, 193, 193);
+}

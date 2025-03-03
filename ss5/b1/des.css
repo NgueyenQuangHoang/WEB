@@ -1,0 +1,12 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+img{
+    height: auto;
+    width: 200px;
+}
