@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+    .al{
+        width: 650px;
+        height: auto;
+        background-color: rgb(204, 206, 206);
+    }
+    .intro{
+        color: rgb(47, 17, 98);
+    }
+    
+    .content ul li{
+        color: rgb(47, 17, 98);
+        list-style-type: none;
+        background: url('icon-check.png') no-repeat left center;
+        padding-left: 30px;
+        margin-bottom: 5px;
+        
+    }
+    .content ul {
+        padding-left: 10px;
+    }
+    .button-1{
+        background-color: rgba(227, 0, 0, 0.718);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .button-2{
+        background-color: rgb(204, 206, 206);
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+  }
+  .package-card {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .package-header {
+    background-color: #FF4C4C;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  .package-header .hot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FFBC00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .package-info {
+    margin-top: 20px;
+  }
+  .package-info div {
+    margin: 10px 0;
+  }
+  .package-info span {
+    font-weight: bold;
+  }
+  .package-footer {
+    margin-top: 20px;
+  }
+  .btn {
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    width: 70%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background-color: #D43F3F;
+  }
+  .detail-btn {
+    background-color: #f1f1f1;
+    color: #FF4C4C;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30%;
+    text-align: center;
+  }
+  .detail-btn:hover {
+    background-color: #e0e0e0;
+  }

@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+}
+.content{
+    width: 500px;
+    height: auto;
+}
+.content img{
+    width: 500px;
+    height: auto;
+}
+.content h1{
+    font-size: 30px;
+    color: #000;
+}
+.content .star{
+    margin: 20px;
+    background-color: orange;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.content h4{
+    opacity: 0.5;
+}
