@@ -1,0 +1,54 @@
+form{
+    width: 40%;
+    background: linear-gradient(45deg, #290848, #7321cb, #290848, #7321cb);
+    margin: 25% auto;
+    padding: 3%;
+    border-radius: 10px;
+    color: #ffffff;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.name input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #000000;
+}
+.email input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #000000;
+}
+.mesage textarea{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #000000;
+}
+.submit button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fcfcfc;
+    color: #121111;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}

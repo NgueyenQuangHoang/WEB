@@ -1,0 +1,37 @@
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+}
+.header .underline{
+    width: 250px;
+    height: 5px;
+    background-color: #FF4C4C;
+}
+img{
+    width: 85%;
+    height: 270px;
+}
+.case-1, .case-2, .case-3{
+    padding: 5%;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 90%;
+    line-height: 30px;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eea8a8;
+    color: #121111;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+td{
+    border: 1px solid #000000;
+}

@@ -1,0 +1,80 @@
+.page-1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #edecec;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.page-2{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #edecec;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.page-2 img{
+    width: 475px;
+    height: 314px;
+}
+.page-1-content{
+    text-align: left ;
+    margin-top: 50px;
+    margin-left: 16%;
+    width: 490px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+.page-1-button{
+    text-align: center;
+}
+.page-1-button button{
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    border: 2px solid #000000;
+    padding: 12px 20px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.page-1-button button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.page-2-content{
+    text-align: left ;
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 490px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+.page-2-button{
+    text-align: center;
+}
+.page-2-button button{
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    border: 2px solid #000000;
+    padding: 12px 20px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.page-2-button button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+td {
+    border: 1px solid #000000;
+}
