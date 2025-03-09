@@ -1,0 +1,36 @@
+.art{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #69aef4;
+    padding: 20px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.container .slidebar{
+    background-color: blue;
+    width: 30%;
+    height: 96%;
+    margin: 10px;
+}
+.container .content{
+    background-color: #2b6c86;
+    width: 70%;
+    height: 96%;
+    margin: 10px;
+}
+.footer{
+    background-color: #bb28af;
+    padding: 20px;
+    margin: 10px;
+}

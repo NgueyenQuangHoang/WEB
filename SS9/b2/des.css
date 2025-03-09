@@ -1,0 +1,82 @@
+.box-parent{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    background-color: azure;
+}
+.box-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-child-1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightblue;
+    margin: 10px;
+}
+.box-child-2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightgreen;
+    margin: 10px;
+}
+.box-child-3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightcoral;
+    margin: 10px;
+}
+.box-child-4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightpink;
+    margin: 10px;
+}
+.box-child-5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightyellow;
+    margin: 10px;
+}
+.box-child-6{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightgray;
+    margin: 10px;
+}
+.box-child-7{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+}
+.box-child-8{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightseagreen;
+    margin: 10px;
+}
+.box-child-9{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: lightsteelblue;
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
