@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    height: 60px;
+}
+.title{
+    font-size: 30px;
+    margin-left: 5%;
+    font-family: "Great Vibes", cursive;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin-left: 7%;
+}
+.nav a{
+    margin: 2%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+}
+.nav a:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.search button{
+    background-color: #8d8888;
+    border: none;
+    cursor: pointer;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: all;
+}
+.search button:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
